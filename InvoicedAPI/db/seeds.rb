@@ -33,3 +33,9 @@ User.create(
 )
 
 puts '1 user created'
+
+User.first.accounts.create(
+    name: 'Artellectual Co., Ltd.'
+)
+
+puts '1 account created'
