@@ -24,4 +24,12 @@ Contact.create!(
     email: 'chad@example.com'
 )
 
-puts "3 contacts created"
+puts '3 contacts created'
+
+User.create(
+    email: 'zack@example.com',
+    password: '123456',
+    password_confirmation: '123456'
+)
+
+puts '1 user created'
